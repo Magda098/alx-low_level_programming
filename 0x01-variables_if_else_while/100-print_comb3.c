@@ -14,13 +14,15 @@ if (x == y || y <= x)
 {
 }
 else
-}
+{
 putchar(x);
 putchar(y);
 if (x == 56 && y == 57)
 {
+
 }
-else{
+else
+{
 putchar(44);
 putchar(' ');
 }
