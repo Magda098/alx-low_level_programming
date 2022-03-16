@@ -6,11 +6,11 @@
  */
 int print_last_digit(int n)
 {
-int lst_dgt;
+int last_d;
 
 last_d = n % 10;
-if (lst_dgt < 0) /*convert to positive*/
-lst_dgt *= -1;
+if (last_d < 0) /*convert to positive*/
+last_d *= -1;
 _putchar (last_d + '0');
-return (lst_dgt);
+return (last_d);
 }
